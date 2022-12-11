@@ -7,26 +7,6 @@ function About() {
   const TEAM = [
     {
       image:
-        "https://media-exp1.licdn.com/dms/image/C4D03AQE1mOUiRq0SWA/profile-displayphoto-shrink_400_400/0/1662570990820?e=1674691200&v=beta&t=DGbK5grUeo7vR7_n7WGp9vONovk9DWID-IUGC9QDNnc",
-      name: "Akhilesh",
-      branch: "Computer Science & Engineering",
-      class: "B.Tech",
-      rollno: "2020UGCS053",
-      github: "https://github.com/iamakhileshmishra",
-      linkdin: "https://www.linkedin.com/in/iamakhileshmishra/",
-    },
-    {
-      image:
-        "https://media-exp1.licdn.com/dms/image/D4D03AQGe4gLHuBPdkQ/profile-displayphoto-shrink_800_800/0/1669332958195?e=2147483647&v=beta&t=fqZvu4pZPZtDIwmBzpRnpBWCABmthqt4Rx3z__Updm4",
-      name: "Rishav",
-      branch: "Computer Science & Engineering",
-      class: "B.Tech",
-      rollno: "2020UGCS052",
-      github: "https://github.com/rishav981",
-      linkdin: "https://www.linkedin.com/in/rishav-kumar-singh-b023801b7/",
-    },
-    {
-      image:
         "https://media-exp1.licdn.com/dms/image/C4D03AQFndlQT2UExwA/profile-displayphoto-shrink_400_400/0/1632338914425?e=1674691200&v=beta&t=_A0XgrQwLgAFNBq-EkG15mWfVYdtLCOcCaje1DEXfOw",
       name: "Ashish",
       branch: "Computer Science & Engineering",
@@ -37,23 +17,13 @@ function About() {
     },
     {
       image:
-        "https://media-exp1.licdn.com/dms/image/D4D03AQEuSpux-ci67Q/profile-displayphoto-shrink_400_400/0/1669350350953?e=1674691200&v=beta&t=uk21OtSVa7fycPb748UplMWYmZrgpAg6MKzUIefbf5A",
-      name: "Saurav",
+        "https://media-exp1.licdn.com/dms/image/C5603AQGiGj_PJrpZXg/profile-displayphoto-shrink_400_400/0/1602855411808?e=1676505600&v=beta&t=97Qtyl5S7mwLxv1Cnmb5_WPWI_xRq93CE252LmZCLos",
+      name: "Suryansh",
       branch: "Computer Science & Engineering",
       class: "B.Tech",
-      rollno: "2020UGCS109",
-      github: "https://github.com/ssr2112",
-      linkdin: "https://www.linkedin.com/in/saurav-kumar-a79016220/",
-    },
-    {
-      image:
-        "https://media-exp1.licdn.com/dms/image/C4E03AQFLyj_tsag0cA/profile-displayphoto-shrink_400_400/0/1623835314215?e=1674691200&v=beta&t=n9ZOE7MBN0Yrgtha2FaGymThr6CThjiKPHCJoBKgEps",
-      name: "Angshuman",
-      branch: "Computer Science & Engineering",
-      class: "B.Tech",
-      rollno: "2020UGCS105",
-      github: "https://github.com/Angshuman-Pal",
-      linkdin: "https://www.linkedin.com/in/angshuman-pal-5292b8202/",
+      rollno: "2020UGCS018",
+      github: "https://github.com/suryansh882",
+      linkdin: "https://www.linkedin.com/in/suryansh12/",
     },
   ];
 
@@ -139,7 +109,7 @@ function About() {
         </Row>
       </Container>
       <hr></hr>
-      <Container className="about_us mt-4">
+      <Container className="about_us mt-4 ml-100">
         <Row className="about_team">
           <h5>Developer Team</h5>
           {TEAM.map((team) => (

@@ -738,6 +738,9 @@ body {
   font-weight: 600;
   color: var(--color4);
 }
+.about_us .about_team {
+  justify-content: center;
+}
 .about_us .about_team .team_image {
   height: 200px;
   width: 200px;
