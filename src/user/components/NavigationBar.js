@@ -22,10 +22,7 @@ function NavigationBar({ path }) {
       ]
     : [
         { to: "/", text: "Home" },
-        {
-          to: "/allhospital/K5VoTDGfkcpsVquvbLgi#specialities",
-          text: "Appointment",
-        },
+
         { to: "/contact", text: "Contact" },
         { to: "/about", text: "About" },
         { to: "/login", text: "LogIn" },
