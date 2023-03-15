@@ -1,13 +1,15 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import IMAGE from "../../assets/onboardbg.jpg";
+import ashish from "../../assets/ashish.jpeg";
+import suryansh from "../../assets/suryansh.png";
+
 // import Feedback from "./HomeComponents/Feedback";
 
 function About() {
   const TEAM = [
     {
-      image:
-        "https://media-exp1.licdn.com/dms/image/C4D03AQFndlQT2UExwA/profile-displayphoto-shrink_400_400/0/1632338914425?e=1674691200&v=beta&t=_A0XgrQwLgAFNBq-EkG15mWfVYdtLCOcCaje1DEXfOw",
+      image: ashish,
       name: "Ashish",
       branch: "Computer Science & Engineering",
       class: "B.Tech",
@@ -16,8 +18,7 @@ function About() {
       linkdin: "https://www.linkedin.com/in/ashishk6285/",
     },
     {
-      image:
-        "https://media-exp1.licdn.com/dms/image/C5603AQGiGj_PJrpZXg/profile-displayphoto-shrink_400_400/0/1602855411808?e=1676505600&v=beta&t=97Qtyl5S7mwLxv1Cnmb5_WPWI_xRq93CE252LmZCLos",
+      image: suryansh,
       name: "Suryansh",
       branch: "Computer Science & Engineering",
       class: "B.Tech",
