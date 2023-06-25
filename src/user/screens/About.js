@@ -2,7 +2,6 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import IMAGE from "../../assets/onboardbg.jpg";
 import ashish from "../../assets/ashish.jpeg";
-import suryansh from "../../assets/suryansh.png";
 
 // import Feedback from "./HomeComponents/Feedback";
 
@@ -16,15 +15,6 @@ function About() {
       rollno: "2020UGCS029",
       github: "https://github.com/Ashish-29",
       linkdin: "https://www.linkedin.com/in/ashishk6285/",
-    },
-    {
-      image: suryansh,
-      name: "Suryansh",
-      branch: "Computer Science & Engineering",
-      class: "B.Tech",
-      rollno: "2020UGCS018",
-      github: "https://github.com/suryansh882",
-      linkdin: "https://www.linkedin.com/in/suryansh12/",
     },
   ];
 
@@ -112,7 +102,7 @@ function About() {
       <hr></hr>
       <Container className="about_us mt-4 ml-100">
         <Row className="about_team">
-          <h5>Developer Team</h5>
+          <h5>Developer</h5>
           {TEAM.map((team) => (
             <Col
               key={team.name}
